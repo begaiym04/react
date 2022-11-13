@@ -1,0 +1,170 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--btn {
+    width: 100px;
+  }
+  #header .header--a {
+    width: 90%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #C4C4C4;
+}
+
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#header .header--a a {
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: 0.5s;
+}
+#header .header--a a:hover {
+  transform: scale(1.1);
+  color: #F57059;
+}
+#header .header--btn button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #F57059;
+  border-radius: 20px;
+  width: 130px;
+  height: 60px;
+  border: none;
+  transition: 0.3s;
+}
+#header .header--btn button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  color: black;
+}
+
+#hero {
+  background: url("../img/bakgraund.png") no-repeat center/cover;
+}
+#hero .hero {
+  display: flex;
+}
+#hero .hero--text {
+  padding-top: 10%;
+}
+#hero .hero--text h4 {
+  width: 437px;
+  height: 27px;
+  font-size: 22px;
+  color: #000000;
+}
+#hero .hero--text h1 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding: 20px 0;
+}
+#hero .hero--text p {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #757095;
+}
+#hero .hero--text__submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  width: 622px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0 4.35199px 134.912px rgba(0, 0, 0, 0.1);
+}
+#hero .hero--text__submit p {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.4;
+}
+#hero .hero--text__submit h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+#hero .hero--text__submit button {
+  width: 211px;
+  height: 65px;
+  background: #1B1C31;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+#hero .hero--text__submit button:hover {
+  transform: scale(1.1);
+  background: fixed;
+  color: #1B1C31;
+}
+#hero .hero--design {
+  display: flex;
+}
+#hero .hero--design__block {
+  padding: 5px;
+  width: 207.59px;
+  height: 106.16px;
+  background: #FFFFFF;
+  box-shadow: 0 3.79155px 117.538px rgba(0, 0, 0, 0.1);
+}
+#hero .hero--design__block h1 {
+  font-weight: 800;
+  font-size: 20.8535px;
+  color: #000000;
+}
+#hero .hero--design__block h3 {
+  font-weight: 700;
+  font-size: 13.2704px;
+  color: #FDBC64;
+}
+#hero .hero--design__block--init {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--design__block input {
+  width: 200px;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
